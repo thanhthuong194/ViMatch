@@ -1,0 +1,19 @@
+# Bỏ qua thư mục log của VNMD
+VNMD/log/
+VNMD/data/
+
+# Bỏ qua thư mục phobert và phobert-rouge
+MatchSum/phobert/
+MatchSum/phobert-rouge/
+MatchSum/ViMatch/
+
+# Bỏ qua các file preprocess jsonl
+MatchSum/preprocess/*.jsonl
+
+# Bỏ qua thư mục cache của Python
+MatchSum/__pycache__/
+VNMD/__pycache__/
+
+# Bỏ qua file model, checkpoint nếu có
+*.pt
+*.bin
